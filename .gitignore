@@ -1,0 +1,9 @@
+*.safetensors
+*.bin
+*.pt
+datasets/
+friendbot/
+clownbot/
+__pycache__/
+*.log
+
