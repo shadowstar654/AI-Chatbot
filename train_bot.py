@@ -49,8 +49,8 @@ trainer = Trainer(
     train_dataset=tokenized
 )
 
-# --- Train + Save ---
-print(f"🚀 Training {args.persona.capitalize()}Bot...")
+# --- Train and Save ---
+print(f"Training {args.persona.capitalize()}Bot...")
 trainer.train()
 trainer.save_model(output_dir)
 tokenizer.save_pretrained(output_dir) 
